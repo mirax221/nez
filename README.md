@@ -1,7 +1,7 @@
 # Nez
 This is a web-based NES emulator. It has been forke d from 
 <a href="https://github.com/sumez">Sumez</a>'s 
-<a href="https://github.com/sumez/nez">Nez emulator</a> to support a few new features, and also to make it as easy 
+<a href="https://github.com/sumez/nez">Nez emulator</a> to suppo rt a  few new features, and also to make it as easy 
 as possible for individual developers to create a web-facing emulator for their games.
 
 **All updates to this live in the `hackery` branch.** 
