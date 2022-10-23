@@ -212,12 +212,7 @@
 			save();
 		}
 	</script>
-	<h2>
-		<span onclick="$('.controllerDisp').toggle(); $(window).scrollTop(100000)">
-			Touch Controls <i class="fas fa-chevron-circle-down"></i>
-		</span>
-	</h2>
-	<div class="controllerDisp" style="display: none;">
+	<div class="controllerDisp" >
 		<div class="directions">
 			<button class="up" onmousedown="emu.controller.upPressed()" ontouchstart="emu.controller.upPressed()" ontouchend="emu.controller.upReleased()" onmouseup="emu.controller.upReleased()">Up</button>
 			<button class="left" onmousedown="emu.controller.leftPressed()" ontouchstart="emu.controller.leftPressed()" ontouchend="emu.controller.leftReleased()" onmouseup="emu.controller.leftReleased()">Left</button>
@@ -244,24 +239,6 @@
 	<div id="gameDescription" style="display: none">
 		This is a game...
 	</div>
-	<h2>
-		<a href="https://twitter.com/cppchriscpp" target="_blank"><i class="fab fa-twitter-square"></i></a>
-		<a href="https://github.com/cppchriscpp/nez" target="_blank"><i class="fab fa-github-square"></i></a>
-		<span onclick="$('.text').toggle(); $(window).scrollTop(100000)">
-			More about NEZ <i class="fas fa-chevron-circle-down"></i>
-		</span>
-	</h2>
-	<div class="text" style="display: none;">
-		Nez is an impressive web-based emulator <a href="https://github.com/sumez/nez" target="_blank">originally written by Sumez</a>. He has <a href="https://twitter.com/sumez" target="_blank">a Twitter</a> too!<br /> <br />
 
-		He wrote the code that makes this whole thing tick, and deserves full credit!<br /><br />
-		
-		I forked this emulator to add a few new features, and to try to make it as friendly as possible for individual developers to create an emulator for their games. I added an easy way to auto-load games and an embed feature,
-		so if you want to set this up for yourself, it shouldn't be hard! Check it out <a href="https://github.com/cppchriscpp/nez" target="_blank">on Github</a> for instructions on setting it up</a>.<br /><br />
-		My Twitter is open for feedback as well! <a href="https://twitter.com/cppchriscpp" target="_blank">@cppchriscpp</a><br /><br />
-		~ Chris<br />
-
-		<br />
-	</div>
 </body>
 </html>
