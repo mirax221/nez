@@ -111,9 +111,7 @@ html {
 body {
 	font-family: Tahoma;
 	font-size: 12px;
-	background-color: #ccc;
-	background-image: linear-gradient(#cef, #acf, #acf, #7bc);
-	background-attachment: fixed;
+	background-color: #000;
 	text-align: center;
 }
 .emulator {
