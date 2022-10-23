@@ -93,10 +93,7 @@
 	<div class="emulator" style="display: none;">
 		<canvas class="nes" width="512" height="480"></canvas>
 		<div class="controls">
-			<div title="Open NES ROM file" class="button open">
-				<input class="rom-file" type="file" accept=".nes" onchange="loadfile(this)" />
-				<img src="open.svg">
-			</div>
+			
 			<div title="Toggle pause" class="button pause" onclick="togglePause()" style="margin-right: auto">
 				<img class="pause-state" src="pause.svg">
 			</div>
@@ -108,9 +105,7 @@
 			<div title="Configure controller buttons" class="button controller" onclick="emu.buttonConfig()">
 				<img src="controller.svg">
 			</div>
-			<div title="Toggle TV shader (might be slow)" class="button shader" onclick="toggleShader()">
-				<img src="tv.svg">
-			</div>
+			
 			<div title="Full screen" class="button fullscreenButton" onclick="fullscreen()">
 				<img src="fullscreen.svg">
 			</div>
