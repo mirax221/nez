@@ -112,7 +112,7 @@ body {
 	font-family: Tahoma;
 	font-size: 12px;
 	background-color: #32a864;
-
+-webkit-touch-callout: none;
 	text-align: center;
 }
 .emulator {
