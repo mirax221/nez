@@ -111,10 +111,8 @@ html {
 body {
 	font-family: Tahoma;
 	font-size: 12px;
-	background-color: #000;
-background-image:url("IMG_20221026_132056.jpg");
-	background-position: center;
-    background-repeat: no-repeat;
+	background-color: #32a864;
+
 	text-align: center;
 }
 .emulator {
